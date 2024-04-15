@@ -1,0 +1,103 @@
+/* Color: https://www.schemecolor.com/5-shades-of-gray-colors.php 
+https://seekcolors.com/brand/spotify/
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #191414;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, p {
+    font-weight: 100;
+}
+
+span {
+    font-weight: bold;
+    color: #1db954;
+}
+
+.header {
+    margin: 20px;
+    height: 300px;
+    background-color: #494848;
+    background-image: url('../imgs/banner.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 20px;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0px;
+    padding-top: 100px;
+}
+
+.music {
+    margin: 20px;
+    padding: 20px;
+    background-color: #636363;
+    border-radius: 20px;
+}
+
+.music td {
+    padding: 10px 50px 20px;   
+}
+
+.music img {
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.music p {
+    padding: 20px 0px 20px 0px;
+    color: white;
+    text-align: justify;
+}
+
+.music h2 {
+    margin: 0px;
+    font-size: 2rem;
+    color: white;
+}
+
+.music h3 {
+    margin: 0px;
+    font-size: 1rem;
+    color: #909090;
+}
+
+.boton-spotify {
+    background-color: #1db954;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.boton-spotify:hover {
+    background-color: #13873c;
+}
+
+.footer {
+    line-height: 3em;
+    background-color: #191414;
+    background-image: url('../imgs/footer.png');
+    background-size: 20%;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
